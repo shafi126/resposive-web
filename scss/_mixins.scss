@@ -1,0 +1,45 @@
+// contains only left/right paddings
+
+@mixin padding {
+  padding-right: 7.5625rem;
+  padding-left: 4.375rem;
+}
+// left padding form social setups
+
+@mixin social-paddings {
+  padding-left: 1.6875rem;
+}
+
+// flex
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@mixin flex1 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+// heights
+
+@mixin height {
+  width: 327px;
+  height: 240px;
+}
+
+// paddings
+
+@mixin media-padding {
+  padding-top: 42px;
+  padding-left: 32px;
+  padding-bottom: 18px;
+  padding-right: 32px;
+}
+
+@mixin media-LR {
+  padding-left: 32px;
+  padding-right: 32px;
+}

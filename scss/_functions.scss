@@ -1,0 +1,22 @@
+// font-size functions
+
+
+@function size($size-name) {
+  @return map-get($font-sizes, $size-name);
+}
+
+@function wieght($wieght-name) {
+  @return map-get($font-wieghts, $wieght-name);
+}
+
+
+$font-sizes: (
+  "primary": 1.925rem,
+  "secondary": 13px
+);
+
+$font-wieghts: (
+  "normal": 100,
+  "medium": 600,
+  "bold": 700,
+  );
